@@ -12969,7 +12969,7 @@ const Bd = [["path", {
     username: "Alexander Baikalov"
 }]
   , Vd = () => X.jsx("div", {
-    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-5xl mx-auto mt-8",
+    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-5xl mx-auto mt-8",
     children: Zd.map(A => X.jsxs("a", {
         href: A.url,
         target: "_blank",
