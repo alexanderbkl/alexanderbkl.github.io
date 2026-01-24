@@ -12904,7 +12904,7 @@ const Bd = [["path", {
 }]]
   , Gd = St("youtube", Bd)
   , Xd = [{
-    name: "Python",
+    name: "Golang",
     icon: Yd,
     color: "text-yellow-400"
 }, {
@@ -12920,7 +12920,7 @@ const Bd = [["path", {
     icon: rd,
     color: "text-blue-500"
 }, {
-    name: "Golang",
+    name: "Python",
     icon: Rd,
     color: "text-red-500"
 }, {
