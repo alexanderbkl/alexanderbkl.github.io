@@ -13056,7 +13056,7 @@ const Bd = [["path", {
         text: "infrastructure",
         className: "text-secondary font-bold"
     }, {
-        text: ", and everything related to the ",
+        text: " and everything related to the ",
         className: "text-gray-400"
     }, {
         text: "tech industry",
