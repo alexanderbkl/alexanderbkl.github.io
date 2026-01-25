@@ -12936,7 +12936,7 @@ const Bd = [["path", {
     className: "w-full py-6",
     children: [X.jsx("h3", {
         className: "text-xl font-semibold text-gray-400 mb-6 text-center uppercase tracking-widest text-sm font-mono",
-        children: "Stack Tecnológico"
+        children: "Tech Stack"
     }), X.jsx("div", {
         className: "flex flex-wrap justify-center gap-4 md:gap-6",
         children: Xd.map( (A, C) => X.jsxs("div", {
@@ -13044,22 +13044,22 @@ const Bd = [["path", {
 }
   , Kd = () => {
     const A = [{
-        text: '"Apasionado por la ',
+        text: '"Passionate about ',
         className: "text-gray-400"
     }, {
-        text: "arquitectura de software",
+        text: "software architecture",
         className: "text-primary font-bold"
     }, {
-        text: ", la ",
+        text: ", ",
         className: "text-gray-400"
     }, {
-        text: "infraestructura",
+        text: "infrastructure",
         className: "text-secondary font-bold"
     }, {
-        text: " y todo lo que impulse el mundo ",
+        text: ", and everything related to the ",
         className: "text-gray-400"
     }, {
-        text: "tecnológico",
+        text: "tech industry",
         className: "text-accent font-bold"
     }, {
         text: '."',
