@@ -12763,25 +12763,30 @@ const Md = [["circle", {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const Dd = [["rect", {
-    width: "20",
-    height: "20",
-    x: "2",
-    y: "2",
-    rx: "5",
-    ry: "5",
-    key: "2e1cvw"
+
+const Dd = [["path", {
+    d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z",
+    key: "1f5yer"
 }], ["path", {
-    d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z",
+    d: "M9 7h6M9 11h6M9 15h4",
+    key: "45d890"
+}], ["circle", {
+    cx: "7",
+    cy: "8",
+    r: "1",
     key: "9exkf1"
-}], ["line", {
-    x1: "17.5",
-    x2: "17.51",
-    y1: "6.5",
-    y2: "6.5",
+}], ["circle", {
+    cx: "7",
+    cy: "12",
+    r: "1",
     key: "r4j83e"
+}], ["circle", {
+    cx: "7",
+    cy: "16",
+    r: "1",
+    key: "8f2x4d"
 }]]
-  , Ud = St("instagram", Dd);
+  , Ud = St("cv", Dd);
 /**
  * @license lucide-react v0.560.0 - ISC
  *
@@ -12967,9 +12972,15 @@ const Bd = [["path", {
     icon: xd,
     color: "hover:border-blue-500 hover:shadow-blue-500/20 group-hover:text-blue-500",
     username: "Alexander Baikalov"
+}, {
+    name: "CV",
+    url: "https://www.alexanderbkl.github.io/cv/",
+    icon: Ud,
+    color: "hover:border-blue-500 hover:shadow-blue-500/20 group-hover:text-blue-500",
+    username: "Curriculum Vitae"
 }]
   , Vd = () => X.jsx("div", {
-    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-5xl mx-auto mt-8",
+    className: "grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-6 w-full max-w-5xl mx-auto mt-8",
     children: Zd.map(A => X.jsxs("a", {
         href: A.url,
         target: "_blank",
