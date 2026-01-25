@@ -12908,7 +12908,7 @@ const Bd = [["path", {
     icon: Yd,
     color: "text-yellow-400"
 }, {
-    name: "Javascript",
+    name: "Node",
     icon: Ad,
     color: "text-yellow-300"
 }, {
