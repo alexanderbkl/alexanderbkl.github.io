@@ -12974,7 +12974,7 @@ const Bd = [["path", {
     username: "Alexander Baikalov"
 }, {
     name: "CV",
-    url: "https://www.alexanderbkl.github.io/cv/",
+    url: "https://alexanderbkl.github.io/cv/",
     icon: Ud,
     color: "hover:border-blue-500 hover:shadow-blue-500/20 group-hover:text-blue-500",
     username: "Curriculum Vitae"
